@@ -16,3 +16,8 @@ pip install -r requirements.txt
 source .venv/bin/activate
 python -m ipf
 ```
+
+## Sources
+
+1. https://u.demog.berkeley.edu/~eddieh/IPFDescription/AKDOLWDIPFTWOD.pdf
+2. https://u.demog.berkeley.edu/~eddieh/IPFDescription/AKDOLWDIPFTHREED.pdf
