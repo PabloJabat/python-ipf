@@ -5,11 +5,11 @@ class IPF:
     def __init__(
         self,
         target_marginals_0: np.ndarray,
-        target_variables_1: np.ndarray,
+        target_marginals_1: np.ndarray,
         iterations: int = 50,
     ) -> None:
         self.target_marginals_0 = target_marginals_0
-        self.target_marginals_1 = target_variables_1
+        self.target_marginals_1 = target_marginals_1
         self.iterations = iterations
 
     def run(self, seed: np.ndarray) -> np.ndarray:
